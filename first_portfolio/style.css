@@ -1,0 +1,116 @@
+body {
+    background-image: url('./img/m.jpg');
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+
+header .nav {
+
+    list-style: none;
+    border: 3px solid black;
+    background-color: aqua;
+    position: fixed;
+    border-right: hidden;
+    width: 100%;
+    margin: -25px 0px 0px -10px;
+    height:80px;
+    z-index: 999;
+    top: 20px;
+}
+
+.nav ol {
+    text-align: right;
+    margin-top: -30px;
+}
+
+.nav ol li {
+    display: inline;
+    margin-right: 10px;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.nav ol li:hover {
+    background-color: rgb(35, 111, 149);
+}
+
+.list a {
+    text-decoration: none;
+    color: none;
+}
+
+a:link {
+    color:black
+}
+
+a:visited{
+    color: black;
+}
+
+ #logo {
+  padding-top: 15px;
+}
+
+#home {
+    color: rgb(48, 222, 164);
+    padding-top: 80px;
+    text-shadow: 2px 2px black;
+}
+
+#about {
+    padding-top: 80px;
+    display: flex;
+}
+
+#about h2 {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+section {
+    width: 50%;
+    margin-top: 100px;
+}
+
+section p {
+    text-align: center;
+    font-size: 20px;
+}
+
+#profile img {
+    text-align: center;
+    display: flex;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+#skills {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+
+#skills h2 {
+    position:absolute;
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+
+}
+
+#skills span {
+    margin-top: 120px;
+    display: flex;
+    margin:170px auto;
+}
+
+#skills span:hover {
+    transform: scale(1.2);
+}
+
+#html img{
+    display: inline;
+}
