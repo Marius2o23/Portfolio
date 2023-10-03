@@ -95,6 +95,11 @@ section p {
     border-bottom-right-radius: 5%;
 }
 
+#profile img:hover {
+    scale: 1.1;
+    transition: 0.5s;
+}
+
 #skills {
     text-align: center;
     width: 100%;
