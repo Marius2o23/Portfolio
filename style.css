@@ -1,0 +1,244 @@
+body {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1209%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='url(%26quot%3b%23SvgjsLinearGradient1210%26quot%3b)'%3e%3c/rect%3e%3cpath d='M926.4137356191762 179.82693164933949L789.9696548482531 150.8248469804453 760.9675701793589 287.2689277513685 897.411650950282 316.27101242026265z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M892.743%2c762.964C941.629%2c760.972%2c981.158%2c728.003%2c1005.863%2c685.771C1030.861%2c643.039%2c1040.469%2c592.212%2c1018.62%2c547.787C994.035%2c497.798%2c948.42%2c457.584%2c892.743%2c455.764C834.27%2c453.853%2c779.679%2c487.651%2c751.758%2c539.063C724.991%2c588.351%2c732.559%2c648.228%2c762.445%2c695.69C790.361%2c740.023%2c840.396%2c765.097%2c892.743%2c762.964' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1316.1514723875673 449.3535743420983L1252.052665929014 575.1545652879963 1377.853656874912 639.2533717465496 1441.9524633334654 513.4523808006516z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1195.8546395903365 381.15990349956644L1212.9713641648425 284.0861346087678 1115.8975952740439 266.96941003426195 1098.780870699538 364.0431789250606z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1154.867%2c160.345C1171.144%2c160.744%2c1188.795%2c157.48%2c1197.236%2c143.557C1205.911%2c129.248%2c1202.28%2c111.029%2c1193.342%2c96.883C1185.033%2c83.733%2c1170.416%2c76.953%2c1154.867%2c76.504C1138.37%2c76.027%2c1120.809%2c80.378%2c1112.337%2c94.541C1103.687%2c109.001%2c1106.802%2c127.414%2c1115.948%2c141.566C1124.328%2c154.533%2c1139.433%2c159.967%2c1154.867%2c160.345' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1327.868659503067 609.0012349190154L1517.7642769661927 592.5698657877297 1424.5921667258644 454.43653179145304z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1209'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='15.28%25' y1='-39.29%25' x2='84.72%25' y2='139.29%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1210'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(0%2c 100%2c 158%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");    background-size:100% 100%;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    font-size: 20px;
+}
+
+header .nav {
+
+    list-style: none;
+    border: 3px solid black;
+    background-color: aqua;
+    position: fixed;
+    width: 100%;
+    margin: -25px 0px 0px -10px;
+    height:80px;
+    z-index: 999;
+    top: 20px;
+}
+
+.nav ol {
+    text-align: right;
+    margin-top: -30px;
+}
+
+.nav ol li {
+    display: inline;
+    margin-right: 10px;
+    padding: 3px 11px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+li a {
+    margin : 0 -11px;
+}
+
+.nav ol li:hover {
+    background-color: rgb(35, 111, 149);
+}
+
+.list a {
+    text-decoration: none;
+    color: none;
+}
+
+a:link {
+    color:black
+}
+
+a:visited{
+    color: black;
+}
+
+#logo {
+  padding-top: 15px;
+}
+
+#home {
+    color: rgb(48, 222, 164);
+    padding-top: 80px;
+    text-shadow: 2px 2px black;
+}
+
+#about {
+    padding-top: 80px;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+#about h2 {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+section {
+    margin-top: 100px;
+}
+
+section p {
+    text-align: center;
+    font-size: 20px;
+    min-width: 400px;
+}
+
+#profile img {
+    text-align: center;
+    display: flex;
+    margin-top: 100px;
+    margin-left: 20px;
+    border-top-left-radius: 50% 25%;
+    border-top-right-radius: 50% 25%;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+
+#profile img:hover {
+    scale: 1.1;
+    transition: 0.5s;
+}
+
+#skills {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+
+#skills h2 {
+    position:absolute;
+    text-align: center;
+    width: 100%;
+    margin-top: 100px;
+
+}
+
+#skills figure {
+    margin-top: 120px;
+    margin:170px auto;
+}
+
+#skills figure:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+    text-shadow: #050801 3px 3px 1px;
+}
+
+#projects {
+    text-align: center;
+    height: 300px;
+}
+
+
+
+footer a {
+    margin: 0 -1px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    width: 80px;
+    height: 80px;
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: 0.5s;
+    background: rgba(0, 0, 0, 0.);
+    font-size: 2em;
+}
+
+#email {
+    color:gray;
+}
+#phone {
+    color:#d76a0b;
+}
+#facebook {
+    color:#3b5998;  
+}
+#instagram {
+    color:#d20c4e;
+}
+
+/*hovered */
+#email:hover {
+    color:black;
+}
+#phone:hover {
+    color:black;
+}
+#facebook:hover {
+    color:black;  
+}
+#instagram:hover {
+    color:black;
+}
+
+footer a:hover {
+    background: var(--color);
+    color: #050801;
+    box-shadow: 0 0 5px var(--color),
+     0 0 25px var(--color),
+     0 0 50px var(--color),
+     0 0 200px var(--color);
+}
+
+#copyright {
+    text-align: right;
+    
+}
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+/* Styles */
+    section {
+        width: fit-content;
+    }
+    .nav img {
+        position: absolute;
+    }
+    .nav ol {
+        text-align: center;
+        padding-top: 55px;
+        padding-bottom: 10px;
+        margin-left: 12px;
+        
+    }
+
+
+    #about  {
+        display:list-item;
+    }
+
+    #profile img {
+        margin-top: 10px;
+    }
+    
+    footer a {
+        font-size: 1.5em;
+        width: 50px;
+        height: 50px;
+    }
+
+    #email {
+        color:gray;
+    }
+    #phone {
+        color:#d76a0b;
+    }
+    #facebook {
+        color:#3b5998;  
+    }
+    #instagram {
+        color:#d20c4e;
+    }
+
+}
+
+
+
