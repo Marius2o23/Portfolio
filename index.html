@@ -6,95 +6,118 @@
     <title>Marius Copil</title>
     <link rel="stylesheet" href="./style.css">
 </head>
-<header>
-    <nav class="nav">
-        <img id="logo" src="./img/logo.png" alt="paper and a pen" width="50px">
-        <ol class="list">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ol>
-    </nav>
-</header>
 <body>
-    <main id="home">
-        <h1>Hi, I'm Marius</h1><br>
-        <h2>This is my first Portfolio</h2><br>
-            <p>text</p><br>
-            <p>text</p><br>
-            <p>text</p><br>
 
-        <div id="about">
+    <header>
+        <nav class="nav">
+            <img id="logo" src="./img/logo.png" alt="paper and a pen" width="50px">
+            <button id="dropdown-button"><i class="fa-solid fa-bars fa-2xl"></i></button>
+            <ol id="list">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ol>
+
+            <!-- Add the mobile dropdown menu structure -->
+            <div class="mobile-dropdown">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+        <main id="main">
+            <div id="home">
+                <h1>Hi, I'm Marius</h1><br>
+                <h2>This is my first Portfolio</h2><br>
+                    <p>text</p><br>
+                    <p>text</p><br>
+                    <p>text</p><br>
+            </div>
+
+            <div id="about">
+                
+                <h2>About Me</h2>
+                <section>
+                    <p>Hey there, I'm Marius.<br>
+                        If I were to go back in time when I was 10 years old and I would have been asked what I would like to be when I grow up, I would have answered "I don't know what the future looks like but if I don't have a computer I don't want to be there".<br> 
+                        Well I dint't knew that technology would evolve so much.<br> 
+                        No matter that 2, 5, 10 years have passed, my dream is still there and waiting to be fulfilled.<br> 
+                        I consider that I was a different child because while my friends were playing I was fascinated by technology in the true sense of the word.<br> 
+                        I wanted to disassemble everything I could, to discover the components and assemble them in place.<br> 
+                        When my mother saw that I was taking apart the computer instead of playing, she said "This child either has a problem or will become a technology genius".<br> 
+                        I haven't gotten there yet but this is my dream.<br> 
+                        Growing up, I discovered more and more information, I was starting to wonder how a website is created and what is behind an application, until the day I said it was my time, so I started a course and really studied.<br>
+                        I'm 32 years old, I'm at the age where I know what I want, I want to work in the IT field and discover everything technology has to offer.<br>
+                        Let's make dreams come true.<br> I want to make that 10-year-old proud.
+                    </p><br>
+                </section>
+
+                <media id="profile">
+                    <img src="./img/profile.jpg" alt="photo with me" width="" height="400px">
+                </media>
+            </div>
             
-            <h2>About Me</h2>
-            <section>
-                <p>Arta se poate clasifica in o multime de situatii,dar consider ca,cuvantul arta ar trebui sa fie insusit de natura. Arta poate fi un tablou,o pictura,un cantec. Dar natura poate fi toate lanun loc.<br><br>
-                    Sa facem un exercitiu de imaginatie.<br>
-                    Doar imagineazati ca esti pe o plaja la apus de soare,cu valuri ce ating nisipul neincetat. Nu este acesta cel mai frumos tablou pictat de Dumnezeu cu cel mai linistitor sunet?!<br><br>
-                    Buna,sunt Marius si o sa cuprind tot ce am invatat,vazut si surprins de-a lungul timpului. O sa definesc arta asa cum este si cum trebuie vazuta de orice ochi.</p><br>
-            </section>
+            <div id="skills">
+                <h2>Skills</h2>
 
-            <media id="profile">
-                <img src="./img/profile.jpg" alt="photo with me" width="" height="400px">
-            </media>
-        </div>
-        
-        <div id="skills">
-            <h2>Skills</h2>
+                <figure id="html">
+                    <img src="./img/html5.png" alt="HTML5 logo" width="100px" height="100px">
+                    <figcaption>HTML5</figcaption>
+                </figure>
 
-            <figure id="html">
-                <img src="./img/html5.png" alt="HTML5 logo" width="100px" height="100px">
-                <figcaption>HTML5</figcaption>
-            </figure>
+                <figure id="css">
+                    <img src="./img/css3.png" alt="CSS3 logo" width="100px" height="100px">
+                    <figcaption>CSS3</figcaption>
+                </figure>
 
-            <figure id="css">
-                <img src="./img/css3.png" alt="CSS3 logo" width="100px" height="100px">
-                <figcaption>CSS3</figcaption>
-            </figure>
+                <figure id="java">
+                    <img src="./img/javascript.png" alt="JavaScript logo" width="100px" height="100px">
+                    <figcaption>JavaScript</figcaption>
+                </figure>
+            </div>
 
-            <figure id="java">
-                <img src="./img/javascript.png" alt="JavaScript logo" width="100px" height="100px">
-                <figcaption>JavaScript</figcaption>
-            </figure>
-        </div>
+            <div id="projects">
+                <h2>Projects</h2>
+                <p>Projects section will coming soon.</p>
+            </div>
+        </main>
 
-        <div id="projects">
-            <h2>Projects</h2>
-            <p>Projects section will coming soon.</p>
-        </div>
-    </main>
+        <footer>
+            <div id="contact">
+                <h2>Contact</h2>
+                <div id="contacts">
+                    <a href ="mailto: marius.copil91@yahoo.ro" id="email" style="--color: #e3df54;">
+                        <i class="fa-regular fa-envelope"></i>    
+                    </a>
+                    <a href ="tel: +447448765045" id="phone" style="--color: #d76a0b;">
+                        <i class="fa-solid fa-phone"></i>
+                    </a>
+                    <a href ="https://github.com/Marius2o23" target="_blank" id="github"  style="--color: #9b9494;">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href ="https://www.facebook.com/marius.copil.18/" target="_blank" id="facebook" style="--color: #0917d4;">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a  href ="https://www.instagram.com/copil_marius/" target="_blank" id="instagram" style="--color: #d20c4e;">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    
+                    <div id="copyright">
+                        <p>Copyright &copy; 2023</p>
+                    
+                    </div>
+            </div>
+            
 
-    <footer>
-        <div id="contact">
-            <h2>Contact</h2>
-            <div id="contacts">
-                <a href ="mailto: marius.copil91@yahoo.ro" id="email" style="--color: #e3df54;">
-                    <i class="fa-regular fa-envelope"></i>    
-                </a>
-                <a href ="tel: +447448765045" id="phone" style="--color: #d76a0b;">
-                    <i class="fa-solid fa-phone"></i>
-                </a>
-                <a href ="https://github.com/Marius2o23" target="_blank" id="github"  style="--color: #9b9494;">
-                    <i class="fa-brands fa-github"></i>
-                </a>
-                <a href ="https://www.facebook.com/marius.copil.18/" target="_blank" id="facebook" style="--color: #0917d4;">
-                    <i class="fa-brands fa-facebook"></i>
-                </a>
-                <a  href ="https://www.instagram.com/copil_marius/" target="_blank" id="instagram" style="--color: #d20c4e;">
-                    <i class="fa-brands fa-instagram"></i>
-                </a>
-                
-                <div id="copyright">
-                    <p>Copyright &copy; 2023</p>
-                
-                </div>
-        </div>
-        
-
-    </footer>
-    <script src="https://kit.fontawesome.com/3c3be4e980.js" crossorigin="anonymous"></script>
-    <script src="./script.js"></script>
+        </footer>
+        <script src="https://kit.fontawesome.com/3c3be4e980.js" crossorigin="anonymous"></script>
+        <script src="js/mobile-nav.js"></script>
 </body>
 </html>
