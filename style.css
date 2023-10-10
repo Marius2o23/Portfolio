@@ -83,9 +83,11 @@ a:visited{
     margin-left: 10px;
     padding-top: 80px;
     margin-top: -120px;
+    font-size: 2em;
 
 
 }
+
 
 #about {
     padding-top: 80px;
@@ -130,8 +132,8 @@ section p {
 
 #skills {
     text-align: center;
-    width: 100%;
-    margin: auto;
+    max-width: 100%;
+    margin: 0;
     display: flex;
 }
 
@@ -144,8 +146,31 @@ section p {
 }
 
 #skills figure {
+    max-width: 100%;
+    height: auto;
     margin-top: 120px;
     margin:170px auto;
+    position: relative;
+}
+
+#skills figure img {
+    transform-style: preserve-3d;
+    animation: rotate 5s linear infinite;
+}
+
+@keyframes rotate{
+    0% {
+        transform: perspective(1000px) rotateY(0deg);
+    }
+
+    100% {
+        transform: perspective(1000px) rotateY(360deg);
+    }
+}
+
+#skills figure img {
+    object-fit: cover;
+    transition: 2s;
 }
 
 #skills figure:hover {
@@ -234,7 +259,7 @@ and (max-device-width : 480px) {
 .mobile-dropdown {
     display: none;
     opacity: 0;
-    margin-top: 80px;
+    margin-top: 83px;
     text-align: center;
     max-height: 0;
     transform: translateY(-20px);
@@ -253,8 +278,11 @@ and (max-device-width : 480px) {
 .mobile-dropdown li {
     animation: fadeIn 0.5s ease-in-out;
     padding: 10px 0;
-    background-color: #213d79;
-    margin-left: -41px;
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 49%, rgba(0,212,255,1) 100%);     margin-left: -41px;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    margin: 5px 0 0 -40px;
+
 }
 
 @keyframes fadeIn {
@@ -276,23 +304,27 @@ and (max-device-width : 480px) {
 
 .mobile-dropdown ul a{
     text-decoration: none;
-    border-bottom: solid rgb(23, 9, 106);
-    border-top: solid rgb(23, 9, 106);
-    background-color: #557acb;
+    border: solid rgb(23, 9, 106);
+    border-radius: 50%;
+    background-color: #487ceb;
     display: block;
-    margin-left: -40px;
-    margin-right: auto;
+    text-align: center;
     color: #7b3b3b;
     transition: color 0.3 ease;
+    width: 40%;
+    margin: 0 auto;
+    padding: 3px 0;
 
+}
 
+.mobile-dropdown ul a:hover {
+    background-color: rgb(0, 200, 255);
+    color: #050801;
 }
 
 
 .mobile-dropdown ul {
     list-style: none;
-    border-top: solid rgb(23, 9, 106);
-    border-bottom: solid rgb(23, 9, 106);
 
 }
 
@@ -306,6 +338,9 @@ and (max-device-width : 480px) {
 
 }
 
+    #home {
+        font-size: 1.2em;
+    }
 
 
     section {
@@ -328,12 +363,26 @@ and (max-device-width : 480px) {
         display:list-item;
     }
 
+
     #profile img {
-        margin-top: 10px;
-        margin-left: auto;
+        border: 5px solid black;  
+        margin: 10px auto 0 auto;    
         
     }
 
+    #skills {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-bottom: 250px;
+    }
+
+    #skills figure {
+        margin: 200px 0 -100px 0;
+    }
+
+    #skills figure {
+        
+    }
 /*Footer*/
 
     #contacts {

@@ -1,3 +1,5 @@
+//Mobile Nav Button
+
 const dropdownButton = document.getElementById('dropdown-button');
 const mobileDropdown = document.querySelector('.mobile-dropdown');
 
@@ -11,3 +13,6 @@ mobileMenuItems.forEach(function(item) {
         mobileDropdown.classList.remove('active');
     });
 });
+
+//----------------------------------------------------------------
+
